@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SENSOR DE LUMINOSIDAD"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/luminosityValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VALOR: "
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar Resultado"
+        android:onClick="sendMessage"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>

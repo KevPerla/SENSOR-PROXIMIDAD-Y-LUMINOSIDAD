@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <color name="initialBackgroundColor">#FFFFFF</color>
+        <color name="closerBackgroundColor">#FF0000</color>
+        <color name="closerTextColor">#FFFFFF</color>
+
+</resources>
